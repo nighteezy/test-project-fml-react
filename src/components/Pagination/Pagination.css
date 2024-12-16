@@ -1,0 +1,19 @@
+.pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 42px;
+}
+
+.pagination__btn {
+  font-size: 24px;
+  color: var(--grey-color-headers);
+  background: none;
+  border: none;
+}
+
+.pagination__text {
+  font-weight: 400;
+  font-size: 24px;
+  color: var(--grey-color-headers);
+}

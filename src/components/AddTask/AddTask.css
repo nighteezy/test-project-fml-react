@@ -1,0 +1,32 @@
+.container__form {
+  display: flex;
+  justify-content: space-between;
+  gap: 140px;
+}
+
+.add-employee__form {
+  width: 100%;
+}
+
+.form-group {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.form-group input,
+select,
+textarea {
+  max-width: 488px;
+  width: 100%;
+  background: none;
+  color: var(--form-input-color);
+  border: 1px solid var(--form-input-color);
+  border-radius: 15px;
+  text-align: center;
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+}

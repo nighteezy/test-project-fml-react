@@ -1,0 +1,31 @@
+header {
+  padding: 10px 0;
+}
+
+.header__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  background-color: var(--background-nav-color);
+  border-radius: 40px;
+  padding: 8px 26px;
+}
+
+.nav-link .icon {
+  opacity: 0.6;
+  transition: opacity 0.3s ease, filter 0.3s ease;
+  filter: grayscale(100%) invert(0); /* Фильтр для базового цвета */
+}
+
+.nav-link.active .icon {
+  opacity: 1;
+  fill: var(--title-color);
+  /* Изменение фильтра для выделения */
+}

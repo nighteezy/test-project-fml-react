@@ -1,0 +1,36 @@
+.analytics-dashboard {
+  display: flex;
+  flex-direction: column;
+}
+
+.analytics-dashboard__top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.analytics-dashboard__top-left,
+.analytics-dashboard__top-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.analytics-dashboard__top-left {
+  margin-right: 2rem;
+}
+
+.analytics-dashboard__bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.analytics-dashboard__title {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  color: var(--white-text-color);
+}
