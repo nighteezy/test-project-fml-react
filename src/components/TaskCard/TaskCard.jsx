@@ -11,7 +11,7 @@ const TaskCard = () => {
   const tasks = useSelector(selectTasks);
   const employees = useSelector(selectEmployees);
   const loadingTasks = useSelector(selectLoading);
-  const loadingEmployees = useSelector((state) => state.employees.loading); // Assuming you have a loading state for employees as well
+  const loadingEmployees = useSelector((state) => state.employees.loading);
 
   useEffect(() => {
     if (!tasks.length) {

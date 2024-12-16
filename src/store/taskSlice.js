@@ -49,12 +49,12 @@ const taskSlice = createSlice({
       })
       .addCase(fetchTasks.fulfilled, (state, action) => {
         state.loading = false;
-        state.tasks = action.payload; // Устанавливаем загруженные задачи
-        saveTasksToLocalStorage(state.tasks); // Сохраняем в localStorage
+        state.tasks = action.payload;
+        saveTasksToLocalStorage(state.tasks);
       })
       .addCase(fetchTasks.rejected, (state, action) => {
         state.loading = false;
-        state.error = action.error.message; // Устанавливаем сообщение об ошибке
+        state.error = action.error.message;
       });
   },
 });

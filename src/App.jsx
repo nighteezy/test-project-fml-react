@@ -13,7 +13,7 @@ const LazyEmployeeCardPage = lazy(() =>
 const LazyTaskPage = lazy(() => import("./pages/TaskPage/TaskPage"));
 const LazyTaskCardPage = lazy(() =>
   import("./pages/TackCardPage/TaskCardPage")
-); // Исправлено
+);
 const LazyAddEmployeePage = lazy(() =>
   import("./pages/AddEmployeePage/AddEmployePage")
 );

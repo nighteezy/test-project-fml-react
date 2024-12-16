@@ -21,11 +21,10 @@ header {
 .nav-link .icon {
   opacity: 0.6;
   transition: opacity 0.3s ease, filter 0.3s ease;
-  filter: grayscale(100%) invert(0); /* Фильтр для базового цвета */
+  filter: grayscale(100%) invert(0);
 }
 
 .nav-link.active .icon {
   opacity: 1;
   fill: var(--title-color);
-  /* Изменение фильтра для выделения */
 }

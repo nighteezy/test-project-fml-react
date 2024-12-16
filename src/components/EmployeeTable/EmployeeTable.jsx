@@ -77,7 +77,7 @@ const EmployeeTable = () => {
       await dispatch(removeEmployee(employeeToDelete.id));
       setIsConfirmationOpen(false);
       setEmployeeToDelete(null);
-      dispatch(fetchEmployees()); // Обновить список сотрудников после удаления
+      dispatch(fetchEmployees());
     }
   };
 
