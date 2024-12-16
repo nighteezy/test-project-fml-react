@@ -29,7 +29,7 @@ function App() {
             <Route path="/employee" element={<LazyEmployeeTablePage />} />
             <Route path="/employee/:id" element={<LazyEmployeeCardPage />} />
             <Route path="/task" element={<LazyTaskPage />} />
-            <Route path="/task/:id" element={<LazyTaskCardPage />} />{" "}
+            <Route path="/task/:id" element={<LazyTaskCardPage />} />
             <Route path="/add-employee" element={<LazyAddEmployeePage />} />
             <Route path="/add-task" element={<LazyAddTaskPage />} />
           </Route>
